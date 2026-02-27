@@ -18064,7 +18064,7 @@
     <nominal>90</nominal>
     <lifetime>10800</lifetime>
     <restock>1800</restock>
-    <min>7ß</min>
+    <min>70</min>
     <quantmin>20</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -27676,10 +27676,10 @@
     <usage name="Military" />
   </type>
   <type name="SRP_Staff_Skull_Basic">
-    <nominal>1</nominal>
+    <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -27740,16 +27740,18 @@
     <usage name="Lunapark" />
   </type>
   <type name="ADM_Divinghelmet">
-    <nominal>4</nominal>
+    <nominal>8</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>6</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="clothes" />
-    <usage name="Coast" />
+    <value name="Tier4" />
+    <usage name="Firefighter" />
+    <usage name="Industrial" />
   </type>
   <type name="ADM_Divinghelmet_Old">
     <nominal>0</nominal>
@@ -27764,17 +27766,18 @@
     <usage name="Military" />
   </type>
   <type name="ADM_Divingsuit">
-    <nominal>0</nominal>
+    <nominal>8</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
-    <min>0</min>
+    <min>6</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="clothes" />
     <value name="Tier4" />
-    <usage name="Coast" />
+    <usage name="Firefighter" />
+    <usage name="Industrial" />
   </type>
   <type name="ADM_Compressor">
     <nominal>25</nominal>
@@ -27915,6 +27918,16 @@
     <value name="Tier6" />
   </type>
   <type name="InfectedSoldierHardJMC">
+    <nominal>0</nominal>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="InfectedSoldierHardJMC2">
     <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
@@ -29572,7 +29585,7 @@
     <usage name="School" />
     <usage name="Lunapark" />
     <value name="Tier4" />
-  </type>  
+  </type>
   <type name="JMC_Key_Blue">
     <nominal>0</nominal>
     <lifetime>14400</lifetime>
@@ -29583,9 +29596,9 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
-    <tag name="shelves" />    
+    <tag name="shelves" />
   </type>
-    <type name="JMC_Key_Orange">
+  <type name="JMC_Key_Orange">
     <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
@@ -29595,9 +29608,9 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
-    <tag name="shelves" />    
+    <tag name="shelves" />
   </type>
-    <type name="JMC_Key_Yellow">
+  <type name="JMC_Key_Yellow">
     <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
@@ -29607,7 +29620,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
-    <tag name="shelves" />    
+    <tag name="shelves" />
   </type>
   <type name="JMC_Key_Red">
     <nominal>0</nominal>
@@ -29619,6 +29632,127 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
-    <tag name="shelves" />    
-  </type>  
+    <tag name="shelves" />
+  </type>
+  <type name="jmc_pcm_device_0">
+    <nominal>1</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="tools" />
+    <tag name="shelves" />	
+    <usage name="Military" />
+  </type>
+  <type name="jmc_pcm_device_2">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="jmc_pcm_device_3">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="STAG_PunchedCard_Level0">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="STAG_PunchedCard_Level2">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="STAG_PunchedCard_Level3">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="JMC_EG_Shirt_0">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="JMC_EG_Shirt_1">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="JMC_EG_Shirt_2">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="JMC_EG_Shirt_3">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>    
 </types>

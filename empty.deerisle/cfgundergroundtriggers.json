@@ -75,7 +75,7 @@
 			"Position": [ 7175, 0, 11620 ],
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 320, 1160, 320 ],
-			"EyeAccommodation": 0.05,
+			"EyeAccommodation": 0.4,
 			"Breadcrumbs": []
 		},
 		{
@@ -86,37 +86,37 @@
 			"Breadcrumbs": [
 				{
 					"Position": [ 7030, 588, 11618 ],
-					"EyeAccommodation": 0.8,
+					"EyeAccommodation": 0.9,
 					"UseRaycast": 0,
 					"Radius": 4
 				},
 				{
 					"Position": [ 7030, 586, 11618 ],
-					"EyeAccommodation": 0.6,
+					"EyeAccommodation": 0.8,
 					"UseRaycast": 0,
 					"Radius": 4
 				},
 				{
 					"Position": [ 7030, 584, 11618 ],
-					"EyeAccommodation": 0.45,
+					"EyeAccommodation": 0.7,
 					"UseRaycast": 0,
 					"Radius": 4
 				},
 				{
 					"Position": [ 7030, 582, 11618 ],
-					"EyeAccommodation": 0.3,
+					"EyeAccommodation": 0.6,
 					"UseRaycast": 0,
 					"Radius": 4
 				},
 				{
 					"Position": [ 7030, 580, 11618 ],
-					"EyeAccommodation": 0.2,
+					"EyeAccommodation": 0.5,
 					"UseRaycast": 0,
 					"Radius": 4
 				},
 				{
 					"Position": [ 7030, 578, 11618 ],
-					"EyeAccommodation": 0.1,
+					"EyeAccommodation": 0.4,
 					"UseRaycast": 0,
 					"Radius": 4
 				}
@@ -157,7 +157,7 @@
 			"Position": [ 7294, 600, 11761.5 ],
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 14, 14, 37 ],
-			"EyeAccommodation": 0.1,
+			"EyeAccommodation": 0.4,
 			"Breadcrumbs": [],
 			"InterpolationSpeed": 1
 		},
